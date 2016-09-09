@@ -580,7 +580,8 @@ object {
   color: #636467;
 }
 #secondary .widget a {
-  color: #C1C0C0;
+    color: #DA4453;
+    font-weight: bold;
 }
 .widget ul ul {
   padding: 10px;
@@ -1263,6 +1264,12 @@ p.logged-in-as {
   margin-top: 10px;
   float: right;
   text-align: right;
+  color: #da4453;
+}
+#footer-area .copyright a.usf {
+  color: #007336;
+  font-weight: bold;
+  font-size: 14px;
 }
 #colophon {
   background-color: #1F1F1F;
@@ -1545,4 +1552,26 @@ button[type=submit],
   background-color: #fff;
   border: 1px solid #dadada;
   padding: 45px 50px;
+}
+
+/* Customizações de CSS */
+div.visitor-counter-content p {
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+}
+div.page-equipe img.media-object {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+div.page-equipe .media .media-left {
+    display: block;
+}
+div.page-equipe .media .media-left img.media-object {
+    margin: auto;
+    margin-bottom: 15px;
+}
 }
